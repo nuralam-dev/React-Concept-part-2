@@ -1,5 +1,6 @@
 import "./App.css";
 import Batsman from "./batsman";
+import Api from "./api"
 
 function App() {
   function handleClick01() {
@@ -20,6 +21,7 @@ function App() {
     <>
       <h1>React Concept part 2</h1>
       <Batsman></Batsman>
+      <Api></Api>
       <section className="grid">
         <button onClick={handleClick01}>Click 01</button>
         <button onClick={btnHandle02}>click 02</button>
